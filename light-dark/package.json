@@ -1,0 +1,22 @@
+{
+    "name": "light-dark",
+    "displayName": "Light&Dark",
+    "description": "Light and darkt features.",
+    "version": "0.0.1",
+    "publisher": "Vetto",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light&Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Light&Dark-color-theme.json"
+            }
+        ]
+    }
+}
